@@ -1,0 +1,59 @@
+/* Fondo sin imagen */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: #1a1a1a; /* Color de fondo oscuro */
+}
+
+/* Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Título */
+.animated-title {
+    font-size: 28px;
+    color: #a100ff;
+    margin-bottom: 15px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Destacar la carga mínima */
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Botón de WhatsApp */
+.cta {
+    display: inline-block;
+    background: #a100ff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: #7100b3;
+    transform: scale(1.05);
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
